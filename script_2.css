@@ -28,7 +28,7 @@ button{
 	font-family: cursive;
 	border:none;
 }
-.container{
+.container a{
 	justify-content:left;
 	flex-direction: column;
 	width:10vh;
@@ -37,7 +37,7 @@ button{
 a{
 	font-size: 30px;
 }
-.center{
+.center a{
 	justify-content: center;
 	display: flex;
 	color: white;
