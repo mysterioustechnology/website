@@ -32,14 +32,15 @@ button{
 	justify-content:left;
 	flex-direction: column;
 	width:10vh;
+	color: orange;
 }
 a{
-	color:orange;
 	font-size: 30px;
 }
 .center{
 	justify-content: center;
 	display: flex;
+	color: white;
 }
 
 
