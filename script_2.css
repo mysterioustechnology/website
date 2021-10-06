@@ -34,9 +34,6 @@ button{
 	width:10vh;
 	color: orange;
 }
-a{
-	font-size: 30px;
-}
 .center a{
 	justify-content: center;
 	display: flex;
