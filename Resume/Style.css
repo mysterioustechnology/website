@@ -1,5 +1,5 @@
 body{
-	background-color: red;
+	background-color: black;
 }
 h1{
 	text-align:center;
@@ -10,7 +10,7 @@ h1{
 	width: 10vw;
 }
 p{
-	color:white;
+	color:blue;
 }
 .btn-holder{
 	justify-content: right;
