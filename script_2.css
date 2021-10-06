@@ -37,6 +37,10 @@ a{
 	color:orange;
 	font-size: 30px;
 }
+.center{
+	justify-content: center;
+	display: flex;
+}
 
 
 
