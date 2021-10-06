@@ -33,6 +33,7 @@ button{
 	flex-direction: column;
 	width:10vh;
 	color: orange;
+	font-size: 30px;
 }
 .center a{
 	justify-content: center;
