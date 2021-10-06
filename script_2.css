@@ -1,0 +1,43 @@
+body{
+	background-image: url("Galaxy-Upsplash.jpg");
+	background-size: contain;
+	padding:50px;
+	background-position: center;
+}
+.subtitle{
+	text-align:center;
+	color:yellow;
+	font-weight: bolder;
+}
+p{
+
+}
+h1{
+	color:white;
+	font-family: 'Brush Script MT', cursive;
+	text-align: center;
+}
+ .btn-holder {
+  justify-content: right;
+  display: flex;
+}
+button{
+	background-color: #04081300;
+	color:#44ff006b;
+	padding: 6px 25px;
+	font-family: cursive;
+	border:none;
+}
+.resume{
+	justify-content:left;
+	flex-direction: column;
+	width:10vh;
+}
+a{
+	color:orange;
+	font-size: 30px;
+}
+
+
+
+

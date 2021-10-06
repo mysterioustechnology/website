@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="script.css">
+		<script src="Java.js"> </script>
+		<script src="Home.js"></script>	
+	</head>
+	<body bgcolor="black">
+		<h1>Welcome To The Matrix!</h1>
+		<p id="demo"></p>
+	<script> 
+		const AA = 1000
+		for (let i = 0; i < AA; i++) {
+		let b = [Array.from({length:900},() => Math.floor(Math.random()*2)),'<br>'];
+		document.getElementById("demo").innerHTML = b + document.getElementById("demo").innerHTML;
+		}
+	</script>
+	</body>
+</html>
+
+

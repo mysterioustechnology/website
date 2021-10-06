@@ -1,0 +1,25 @@
+body{
+	background-color: red;
+}
+h1{
+	text-align:center;
+	color:white;
+}
+.left{
+	justify-content: left;
+	width: 10vw;
+}
+p{
+	color:white;
+}
+.btn-holder{
+	justify-content: right;
+	display: flex;
+}
+
+button{
+	color:white;
+	font-weight: bolder;
+	font: cursive;
+	background-color: #04081300;
+}
