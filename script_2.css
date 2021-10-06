@@ -28,7 +28,7 @@ button{
 	font-family: cursive;
 	border:none;
 }
-.resume{
+.container{
 	justify-content:left;
 	flex-direction: column;
 	width:10vh;
