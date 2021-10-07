@@ -44,8 +44,9 @@ button{
 	color: white;
 	font-size:130%;
 }
-.ico p{
-	color: "red";
+.ico{
+	background-color: red;
+	width: 20vw;
 }
 
 
