@@ -11,3 +11,14 @@ body{
 	background-color: white;
 	width: 20vw;
 }
+.btn-holder{
+	justify-content: right;
+	display: flex;
+}
+
+button{
+	color:white;
+	font-weight: bolder;
+	font: cursive;
+	background-color: #0000ffff;
+}
