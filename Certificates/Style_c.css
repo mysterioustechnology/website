@@ -2,8 +2,7 @@ body{
  background-color:black;
 }
 img{
-	height:2000px;
-	width:4000px;
+	justify:center;
 }
 .ico{
 	background-color: white;
