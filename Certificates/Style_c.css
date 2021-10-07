@@ -1,8 +1,11 @@
 body{
  background-color:black;
 }
-img{
-	justify:center;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .ico{
 	background-color: white;
