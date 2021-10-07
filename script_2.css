@@ -31,7 +31,7 @@ button{
 .container {
 	justify-content:left;
 	flex-direction: column;
-	width:10vh;
+	width:20vw;
 	color: orange;
 	font-size: 30px;
 }
