@@ -28,12 +28,14 @@ button{
 	font-family: cursive;
 	border:none;
 }
-.container {
+.container a{
 	justify-content:left;
 	flex-direction: column;
-	width:20vw;
 	color: orange;
 	font-size: 30px;
+}
+.container{
+		width:20vw;
 }
 .center a{
 	justify-content: center;
