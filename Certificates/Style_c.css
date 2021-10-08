@@ -12,7 +12,7 @@ body{
 	width: 20vw;
 }
 .btn-holder{
-	justify-content: right;
+	justify-content: center;
 	display: flex;
 }
 
