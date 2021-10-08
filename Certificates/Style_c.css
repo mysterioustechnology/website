@@ -17,10 +17,15 @@ body{
 }
 
 button{
-	color:white;
-	font-weight: bolder;
-	font: cursive;
-	background-color: #0000ffff;
+	color: white;
+    font-weight: bolder;
+    font: cursive;
+    background-color: #0000ffff;
+    height: 60px;
+    width: 810px;
+}
+button:hover {
+	background-color: #555;
 }
 #myBtn {
 position: relative;
