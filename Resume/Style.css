@@ -13,7 +13,11 @@ h1{
 	justify-content: center;
 	position: relative;
 	top: 100px;
-	width: 20vw;
+	left: 400px;
+	width: 50vw;
+}
+h2{
+	color:yellow;
 }
 p{
 	color:yellow;
