@@ -9,6 +9,9 @@ h1{
 	justify-content: left;
 	width: 10vw;
 }
+.center{
+	justify-content: center;
+}
 p{
 	color:yellow;
 }
