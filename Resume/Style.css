@@ -11,6 +11,8 @@ h1{
 }
 .center{
 	justify-content: center;
+	position: relative;
+	top: 110px;
 }
 p{
 	color:yellow;
