@@ -16,6 +16,9 @@ h1{
 	left: 400px;
 	width: 50vw;
 }
+.center h1{
+	color:yellow;
+}
 h2{
 	color:yellow;
 }
@@ -37,4 +40,5 @@ button{
 	background-color: white;
 	width: 20vw;
 }
+
 
