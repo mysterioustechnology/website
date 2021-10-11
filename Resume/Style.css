@@ -43,6 +43,8 @@ button{
 	font: cursive;
 	background-color: #0000ffff;
 	cursor: pointer;
+	height: 50px;
+	width: 200px;
 }
 button:hover {
 	background-color: #555;
