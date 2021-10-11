@@ -8,6 +8,8 @@ h1{
 .left{
 	justify-content: left;
 	width: 10vw;
+	position: relative;
+	bottom: 100px;
 }
 .center{
 	justify-content: center;
