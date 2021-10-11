@@ -20,6 +20,8 @@ h1{
 }
 .center h1{
 	color:yellow;
+	position:relative;
+	left: 30px;
 }
 h2{
 	color:yellow;
