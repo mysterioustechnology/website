@@ -38,6 +38,10 @@ button{
 	font-weight: bolder;
 	font: cursive;
 	background-color: #0000ffff;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #555;
 }
 .ico{
 	background-color: white;
