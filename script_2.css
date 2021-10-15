@@ -1,7 +1,7 @@
 body{
 	background-color: purple;
 	background-image: url("Galaxy-Upsplash.jpg");
-	background-size: contain;
+	background-size: cover;
 	padding:25px;
 	background-position: center;
 }
