@@ -2,9 +2,10 @@ body{
  background-color:black;
 }
 .center {
-  display: flex;
+  display: grid;
   justify-content: "center";
-  width: 50%;
+  width: 100vw;
+  height: auto;
 }
 .ico{
 	background-color: white;
