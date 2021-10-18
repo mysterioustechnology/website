@@ -3,8 +3,7 @@ body{
 }
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: "center";
   width: 50%;
 }
 .ico{
@@ -21,8 +20,8 @@ button{
     font-weight: bolder;
     font: cursive;
     background-color: #0000ffff;
-    height: 60px;
-    width: 810px;
+    height: 6000px;
+    width: 1200px;
 }
 button:hover {
 	background-color: #555;
