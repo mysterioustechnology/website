@@ -16,12 +16,13 @@ body{
 }
 
 button{
-	color: white;
+    color: white;
     font-weight: bolder;
     font: cursive;
     background-color: #0000ffff;
-    height: 600px;
-    width: 1200px;
+    height: 100px;
+    width:device-width;
+    cursor: pointer; 
 }
 button:hover {
 	background-color: #555;
@@ -35,13 +36,7 @@ position: relative;
   outline: none; 
   background-color: red; 
   color: white; 
-  cursor: pointer; 
   padding: 15px;
   border-radius: 10px;
   font-size: 18px; 
-  width:1000px;
-}
-
-#myBtn:hover {
-  background-color: #555;
 }
