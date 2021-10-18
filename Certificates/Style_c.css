@@ -2,7 +2,7 @@ body{
  background-color:black;
 }
 .center {
-  display: block;
+  display: flex;
   justify-content: "center";
   width: 50%;
 }
