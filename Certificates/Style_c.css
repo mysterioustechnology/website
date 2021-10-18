@@ -20,8 +20,8 @@ button{
     font-weight: bolder;
     font: cursive;
     background-color: #0000ffff;
-    height: 100px;
-    width:device-width;
+    height: 10vh;
+    width:100vw;
     cursor: pointer; 
 }
 button:hover {
