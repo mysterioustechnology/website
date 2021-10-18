@@ -1,7 +1,7 @@
 body{
  background-color:black;
 }
-.center {
+img{
   display: grid;
   width: 100vw;
   height: auto;
