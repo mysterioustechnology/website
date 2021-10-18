@@ -29,7 +29,7 @@ button:hover {
 #myBtn {
 position: relative;
   bottom: 20px; 
-  left: 300px;
+  left: 200px;
   z-index: 99; 
   border: none; 
   outline: none; 
