@@ -3,7 +3,6 @@ body{
 }
 .center {
   display: grid;
-  justify-content: "center";
   width: 100vw;
   height: auto;
 }
