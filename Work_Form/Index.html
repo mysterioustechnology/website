@@ -24,6 +24,13 @@
   
             sheets[0].href = value;
         }
+window.addEventListener("resize", function() {
+  if (window.matchMedia("(min-width: 500px)").matches) {
+    toggleTheme('Style_c.css')
+  } else {
+    toggleTheme('Style_c_m.css')
+  }
+})
 	</script>
 	<script>
 function onLoad(){
