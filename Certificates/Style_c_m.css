@@ -3,8 +3,10 @@ body{
 }
 
 
-img{
-	padding: 20vw;
+.mobile img{
+  display: grid;
+  width: 100vw;
+  height: auto;
 }
 
 .ico{

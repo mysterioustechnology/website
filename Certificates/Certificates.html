@@ -13,10 +13,24 @@
         <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-  	<script>
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-	this.classList.toggle('mobile');
-}
+  <script type="text/javascript">
+        function toggleTheme(value) {
+  
+            // Obtain the name of stylesheet 
+            // as a parameter and set it 
+            // using href attribute.
+            var sheets = document
+                .getElementsByTagName('link');
+  
+            sheets[0].href = value;
+        }
+window.addEventListener("resize", function() {
+  if (window.matchMedia("(min-width: 500px)").matches) {
+    toggleTheme('Style_c.css')
+  } else {
+    toggleTheme('Style_c_m.css')
+  }
+})
 	</script>
 	<header class="btn-holder">
 		<a href="https://mysterious-b-wolf.github.io/website/">
@@ -32,7 +46,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 		<br>
 		<img src="Saftey Certificate.jpeg" alt="Saftey Certificate">
 		<br>
-		<img src="troble and repair Cert.png" alt="troble and repair Cert">
+		<img src="troble and repair Cert.png" alt="troble and repair Cert"> 
 	</div>
 	<br>
 	<br>
