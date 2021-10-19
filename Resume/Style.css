@@ -8,6 +8,7 @@ h1{
 .left{
 	justify-content: left;
 	width: 10vw;
+	min-width:10px;
 	position: relative;
 	bottom: 200px;
 }
@@ -17,6 +18,7 @@ h1{
 	top: 100px;
 	left: 400px;
 	width: 50vw;
+	min-width:10px;
 }
 .center h1{
 	color:yellow;
@@ -54,6 +56,7 @@ button:hover {
 .ico{
 	background-color: white;
 	width: 20vw;
+	min-width:100px;
 }
 
 
