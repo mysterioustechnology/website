@@ -24,6 +24,10 @@ h1{
 	position:relative;
 	right: 75px;
 }
+.center h3{
+	color:yellow;
+	position:relative;
+}
 h2{
 	color:yellow;
 }
