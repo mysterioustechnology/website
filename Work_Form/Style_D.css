@@ -12,3 +12,9 @@ button{
 	font-family: cursive;
 	border:none;
 }
+iframe{
+	width:400px;
+	height:700px;
+	display:flex;
+	justify-content:center;
+}
