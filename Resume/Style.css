@@ -33,9 +33,11 @@ p{
 	color:yellow;
 }
 .btn-holder{
-	justify-content: right;
+	justify-content: center;
 	display: flex;
+	width: 100vw;
 }
+
 
 button{
 	color:white;
