@@ -18,6 +18,10 @@ h1{
 	font-family: 'Brush Script MT', cursive;
 	text-align: center;
 }
+.center h1{
+	color:limegreen;
+	font-weight:bolder;
+}
  .btn-holder {
   justify-content: right;
   display: flex;
