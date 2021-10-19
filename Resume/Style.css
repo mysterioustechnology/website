@@ -11,6 +11,7 @@ h1{
 	min-width:300px;
 	position: relative;
 	bottom: 200px;
+	left:50vw;
 }
 .center{
 	justify-content: center;
