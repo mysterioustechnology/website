@@ -19,8 +19,8 @@ h1{
 	text-align: center;
 }
 .center h1{
-	color:limegreen;
-	font-weight:bolder;
+	color:limegreen !important;
+	font-weight:bolder !imprortant;
 }
  .btn-holder {
   justify-content: right;
