@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lan=en>
+  <head>
+    <link rel="stylesheet" href="Style_D.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+		<link rel="manifest" href="../site.webmanifest">
+		<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#603cba">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="viewport" content="width=device-width, initial-scale=0">
+
+  </head>
+  <body onload="onLoad()">
+  <script type="text/javascript">
+        function toggleTheme(value) {
+  
+            // Obtain the name of stylesheet 
+            // as a parameter and set it 
+            // using href attribute.
+            var sheets = document
+                .getElementsByTagName('link');
+  
+            sheets[0].href = value;
+        }
+window.addEventListener("resize", function() {
+  if (window.matchMedia("(min-width: 500px)").matches) {
+    toggleTheme('Style_D.css')
+  } else {
+    toggleTheme('Style_M.css')
+  }
+})
+	</script>
+	<script>
+function onLoad(){
+	if (window.matchMedia("(min-width: 500px)").matches) {
+    toggleTheme('Style_c.css')
+  } else {
+    toggleTheme('Style_c_m.css')
+  }
+}
+	</script>
+
+    <iframe width="400" height="700" src="https://mysteriousgreywolf1.getform.com/egyg2" title="Work Order Form" frameborder="0" allow="clipboard-write; encrypted-media;"></iframe>
+	<div class="ico"> Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank" rel="noopener">Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener">www.flaticon.com</a></div>
+	<footer class="btn-holder">
+		<a href="https://mysterious-b-wolf.github.io/website/">
+			<button> Home </button>
+		</a>
+		</body>
+</html>
