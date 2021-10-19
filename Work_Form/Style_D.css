@@ -1,16 +1,21 @@
 body{
 	background-color: purple;
 }
- .btn-holder {
-  justify-content: right;
-  display: flex;
+.btn-holder{
+	justify-content: center;
+	display: flex;
 }
 button{
-	background-color: #04081300;
-	color:#44ff006b;
-	padding: 6px 25px;
-	font-family: cursive;
-	border:none;
+    color: white;
+    font-weight: bolder;
+    font: cursive;
+    background-color: #0000ffff;
+    height: 10vh;
+    width:100vw;
+    cursor: pointer; 
+}
+button:hover {
+	background-color: #555;
 }
 iframe{
 	width:400px;
