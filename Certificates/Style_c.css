@@ -1,10 +1,14 @@
 body{
  background-color:black;
 }
-img{
+.mobile{
   display: grid;
   width: 100vw;
   height: auto;
+  padding: 0 !important;
+}
+img{
+	padding-left: 25vw;
 }
 .ico{
 	background-color: white;

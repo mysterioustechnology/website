@@ -13,12 +13,17 @@
         <meta name="theme-color" content="#ffffff">
   </head>
   <body>
+  	<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	this.classList.toggle('mobile');
+}
+	</script>
 	<header class="btn-holder">
 		<a href="https://mysterious-b-wolf.github.io/website/">
 			<button> Home </button>
 		</a>
 	</header>
-	<div class="center">
+	<div class="mobile">
 		<img src="Cable Certificate.png" alt="Cable Certificate">
 		<br>
 		<img src="Certificate of training.jpeg" alt="Certificate of training">
