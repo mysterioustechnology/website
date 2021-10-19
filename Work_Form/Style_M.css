@@ -1,3 +1,14 @@
 body{
 	background-color: purple;
 }
+ .btn-holder {
+  justify-content: right;
+  display: flex;
+}
+button{
+	background-color: #04081300;
+	color:#44ff006b;
+	padding: 6px 25px;
+	font-family: cursive;
+	border:none;
+}
