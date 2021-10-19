@@ -21,6 +21,7 @@ h1{
 .center h1{
 	color:limegreen !important;
 	font-weight:bolder !imprortant;
+	font-family:  Inter, sans-serif;
 }
  .btn-holder {
   justify-content: right;
