@@ -21,5 +21,6 @@ iframe{
 	width:400px;
 	height:700px;
 	display:flex;
-	justify-content:center;
+	left:50vw;
+	position:float;
 }
