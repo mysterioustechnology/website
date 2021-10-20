@@ -1,6 +1,7 @@
 body{
 	background-color: purple;
-	background-image: url("pexels-pixabay-163140");
+	background-image: url("pexels-pixabay-163140.jpg");
+	background-size: cover;
 }
 .btn-holder{
 	justify-content: center;
@@ -20,7 +21,7 @@ button:hover {
 }
 iframe{
 	width:400px;
-	height:700px;
+	height:46vw;
 	display:flex;
 	left:35vw;
 	position:relative;
