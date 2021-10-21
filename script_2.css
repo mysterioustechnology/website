@@ -18,12 +18,12 @@ h1{
 	font-family: 'Brush Script MT', cursive;
 	text-align: center;
 }
-.center h2{
+#work_form{
 	color:limegreen;
 	font-weight:bolder !imprortant;
 	font-family:  Inter, sans-serif !important;
 }
-.center h1:hover{
+#work_form a:hover{
 	color:grey;
 }
 	
