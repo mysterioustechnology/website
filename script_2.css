@@ -48,14 +48,6 @@ button{
 		width:20vw;
 }
 .center{
-	justify-content: center;
-	display: flex;
-	color: white !important;
-	font-size:130%;
-}
-.center a{
-	justify-content: center;
-	display: flex;
 	color: white !important;
 	font-size:130%;
 }
