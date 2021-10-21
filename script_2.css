@@ -19,7 +19,7 @@ h1{
 	text-align: center;
 }
 #work_form{
-	color:limegreen;
+	color:limegreen !important;
 	font-weight:bolder !imprortant;
 	font-family:  Inter, sans-serif !important;
 }
@@ -50,7 +50,7 @@ button{
 .center{
 	justify-content: center;
 	display: flex;
-	color: white;
+	color: white !important;
 	font-size:130%;
 }
 .ico{
