@@ -23,6 +23,10 @@ h1{
 	font-weight:bolder !imprortant;
 	font-family:  Inter, sans-serif !important;
 }
+.center h1:hover{
+	color:grey;
+}
+	
  .btn-holder {
   justify-content: right;
   display: flex;
