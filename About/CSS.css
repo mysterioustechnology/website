@@ -2,3 +2,19 @@
  display:flex;
  justify-content: center;
 }
+.btn-holder{
+	justify-content: center;
+	display: flex;
+}
+
+button{
+    color: white;
+    font-weight: bolder;
+    background-color: #0000ffff;
+    height: 10vh;
+    width:100vw;
+    cursor: pointer; 
+}
+button:hover {
+	background-color: #555;
+}
