@@ -55,5 +55,5 @@ button{
 }
 
 a:hover{
-    color:grey;
+    color:grey !important;
 }
