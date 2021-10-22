@@ -1,5 +1,6 @@
 body{
 	background-color: purple;
+	Overflow-y:scroll; //adds vertical scroll bar option in html
 }
 .btn-holder{
 	justify-content: center;
