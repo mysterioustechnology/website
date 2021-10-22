@@ -1,6 +1,5 @@
 body{
 	background-color: purple;
-	Overflow-y:scroll; //adds vertical scroll bar option in html
 }
 .btn-holder{
 	justify-content: center;
@@ -21,5 +20,5 @@ button:hover {
 }
 iframe{
 	width:100vw;
-	height:100vh;
+	height:90vh;
 }
