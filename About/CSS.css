@@ -18,5 +18,9 @@ button{
 button:hover {
 	background-color: #555;
 }
-a:hover
-//make grey
+a:hover{
+     color:grey;
+}
+#links{
+	// do stuff
+ 
