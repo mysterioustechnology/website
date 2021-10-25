@@ -21,6 +21,12 @@ button:hover {
 a:hover{
      color:grey;
 }
+#links img{
+	height: 32px;
+	weidth:32px;
+}
 #links{
-	// do stuff
+	display:flex;
+	justify-content:center;
+}
  
