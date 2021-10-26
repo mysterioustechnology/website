@@ -24,6 +24,7 @@ a:hover{
 #links img{
 	height: 32px;
 	weidth:32px;
+	padding:20px;
 }
 #links{
 	display:flex;
