@@ -22,13 +22,13 @@ a:hover{
      color:grey;
 }
 #links img{
-	height: 32px;
-	weidth:32px;
+	height: 30px;
 	padding:20px;
 }
 #links{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	width:100vw;
 }
  
