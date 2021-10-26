@@ -29,5 +29,6 @@ a:hover{
 #links{
 	display:flex;
 	justify-content:center;
+	align-items:center;
 }
  
