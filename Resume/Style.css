@@ -5,6 +5,10 @@ h1{
 	text-align:center;
 	color:white;
 }
+.center{
+	justify-content:center;
+	width 10vw;
+	position:relative;
 .left{
 	justify-content: left;
 	width: 10vw;
