@@ -21,7 +21,7 @@ button:hover {
 a:hover{
      color:grey !important;
 }
-#links img{
+.links img{
 	height: 30px;
 	padding:20px;
 }
