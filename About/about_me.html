@@ -17,16 +17,17 @@
   <body>
   	  <script>
 	window.addEventListener('resize', function(event){
+		var links = document.getElementByClassName("links");
 		if (window.matchMedia("(min-width: 850px)").matches) {
     			//hide span with class links
-			console.log("hidden")
-			document.getElementByClassName("links").visible = false;
-			document.getElementById("hide").class = " "
+			console.log("hidden");
+			links.visible = false;
+			document.getElementById("hide").class = " ";
   		} else {
     			//dont hide span with class links
-			console.log("Not hidden")
-			document.getElementById("hide").class = "links"
-			document.getElementByClassName("links").visible = true;
+			console.log("Not hidden");
+			document.getElementById("hide").class = "links";
+			links.visible= true;
 		}
 	});
 	  </script>
