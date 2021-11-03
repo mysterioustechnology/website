@@ -9,10 +9,6 @@ body{
   height: auto;
 }
 
-.ico{
-	background-color: white;
-	width: 20vw;
-}
 .btn-holder{
 	justify-content: center;
 	display: flex;
