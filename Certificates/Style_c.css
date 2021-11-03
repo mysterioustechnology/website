@@ -8,11 +8,6 @@ img{
 	padding-right:20vw;
 	width:1000px;
 }
-
-.ico{
-	background-color: white;
-	width: 20vw;
-}
 .btn-holder{
 	justify-content: center;
 	display: flex;
