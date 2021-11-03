@@ -19,11 +19,13 @@
 	window.addEventListener('resize', function(event){
 		if (window.matchMedia("(min-width: 850px)").matches) {
     			//hide span with class links
+			console.log("hidden")
 			document.getElementByClassName("links").visible = false;
-			document.getElementById("hide").className = " "
+			document.getElementById("hide").class = " "
   		} else {
     			//dont hide span with class links
-			document.getElementById("hide").className = "links"
+			console.log("Not hidden")
+			document.getElementById("hide").class = "links"
 			document.getElementByClassName("links").visible = true;
 		}
 	});
