@@ -9,6 +9,8 @@ h1{
 	justify-content:center;
 	width: 20vw;
 	position:relative;
+	left:20vw;
+	top:100px;
 }
 .left{
 	justify-content: left;
