@@ -1,7 +1,7 @@
 .ico{
-	background-color: white;
-	width: 20vw;
+	background-color: white !important;
+	width: 20vw !important;
 }
 a:hover{
-  color:grey;
+  color:grey !important;
 }
