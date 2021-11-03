@@ -21,13 +21,13 @@
 		if (window.matchMedia("(max-width: 850px)").matches) {
     			//hide span with class links
 			console.log("hidden");
-			links.visible = false;
+			links.style.visibility = false;
 			document.getElementById("hide").class = " ";
   		} else {
     			//dont hide span with class links
 			console.log("Not hidden");
 			document.getElementById("hide").class = "links";
-			links.visible= true;
+			links.style.visibility= true;
 		}
 	});
 	  </script>
