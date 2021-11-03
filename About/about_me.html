@@ -20,26 +20,28 @@
 		if (window.matchMedia("(min-width: 1000px)").matches) {
     			//hide span with class links
 			document.getElementByClassName("links").visible = false;
+			document.getElementById("hide").className = " "
   		} else {
     			//dont hide span with class links
+			document.getElementById("hide").className = "links"
 			document.getElementByClassName("links").visible = true;
 		}
 	});
 	  </script>
     <h1 id="center"> Welcome! </h1>
 	<h2 id="center"> My name is Johnathon Gillespie and its nice to meet you!</h2>
-	<span class="links">
+	<span class="links" id="hide">
                <img src="../Icons/phone.png">
 		  304-488-9444
 		  <img src="../Icons/Email.PNG">
 		  mysterioustecnology@gmail.com
-		<a class="links" href="https://vm.tiktok.com/ZM8LgyPW3/" title="My TikTok!" rel="noopener" target="_blank">
+		<a class="links" id="hide" href="https://vm.tiktok.com/ZM8LgyPW3/" title="My TikTok!" rel="noopener" target="_blank">
 			  <img src="../Icons/Tiktok.png">@mysteriouswolf7
 		</a>
-		<a class="links" href="https://www.instagram.com/mysteriousbwolf/?hl=en" title="My Instagram!" rel="noopener" target="_blank">
+		<a class="links" id="hide" href="https://www.instagram.com/mysteriousbwolf/?hl=en" title="My Instagram!" rel="noopener" target="_blank">
 			  <img src="../Icons/insta.png">mysteriousbwolf
 		</a>
-		<a class="links" href="https://www.youtube.com/channel/UCbUR2abj_AFV0IGub6oHSDA" title="My Youtube!" rel="noopener" target="_blank">
+		<a class="links" id="hide" href="https://www.youtube.com/channel/UCbUR2abj_AFV0IGub6oHSDA" title="My Youtube!" rel="noopener" target="_blank">
 			  <img src="../Icons/youtube.png">Mysterious Wolf
 		</a>
 	</span>
