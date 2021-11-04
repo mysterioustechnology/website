@@ -7,6 +7,10 @@
 	display: flex;
 }
 
+#info{
+	display:flex;
+	justify-content:center;
+
 button{
     color: white;
     font-weight: bolder;
