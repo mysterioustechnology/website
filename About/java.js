@@ -11,3 +11,11 @@
 			document.getElementById("show").style.visibility = "hidden"
 		}
 	});
+function openMenu(){
+	var x = getElementById("menu")
+	if (x.style.display === "block") {
+		x.style.display = "none";
+	} else {
+		x.style.display = "block";
+	}
+}
