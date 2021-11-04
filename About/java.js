@@ -12,7 +12,7 @@
 		}
 	});
 function openMenu(){
-	var x = getElementById("menu")
+	var x = document.getElementById("menu")
 	if (x.style.display === "block") {
 		x.style.display = "none";
 	} else {
