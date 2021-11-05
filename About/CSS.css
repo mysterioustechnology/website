@@ -8,7 +8,7 @@
 }
 
 #info{
-	display:flex;
+	display:block;
 	justify-content:center;
 }
 button{
