@@ -16,7 +16,6 @@ p{
 h1{
 	color:white;
 	font-family: 'Brush Script MT', cursive;
-	text-align: center;
 }
 #work_form{
 	color:limegreen !important;
@@ -47,6 +46,7 @@ button{
 .center{
 	color: white !important;
 	font-size:130%;
+	text-align: center;
 }
 .ico{
 	background-color: white;
