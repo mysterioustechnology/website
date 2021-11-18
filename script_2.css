@@ -1,9 +1,12 @@
-body{
+body.home{
 	background-color: purple;
 	background-image: url("Galaxy-Upsplash.jpg");
 	background-size: cover;
 	padding:25px;
 	background-position: center;
+}
+body.404{
+	
 }
 .subtitle{
 	text-align:center;
@@ -46,7 +49,6 @@ button{
 .center{
 	color: white !important;
 	font-size:130%;
-	text-align: center;
 }
 .ico{
 	background-color: white;
