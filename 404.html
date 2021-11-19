@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>Oops!</title>
-		<link rel="stylesheet" href="script_2.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -12,23 +11,41 @@
 		<meta name="theme-color" content="#ffffff">
 		<meta name="viewport" content="width=device-width, initial-scale=0">
 	</head>
-	<body onload="onLoad()" class="error">
-	  <script src="../css_switcher.js"></script>
-	<script>
-function onLoad(){
-	if (window.matchMedia("(min-width: 1000px)").matches) {
-    toggleTheme('Style.css')
-  } else {
-    toggleTheme('Style_M.css')
-  }
-}
-	</script>
-	<h1 id="center" class="error_title">Oh No!</h1>
+	<body>
+		<style>
+			footer{
+				background-image: "cute_pupy_in_calbes.jpeg";
+			}
+			body{
+				background-color: blue;
+				color: orangered;
+			}
+			#center{
+				justify-content: center;
+				display: grid;
+			}
+			.subtitle{
+				font-style: italic;
+			}
+			.btn-holder{
+				display: flex;
+			}
+			button{
+				background-color: #0000ffff;
+				border-radius: 30%;
+				height: 100px;
+				aspect-ratio: 1;
+				align-self: center;
+			}
+		</style>
+	<span id="center">
+	<h1 id="center">Oh No!</h1>
 	<h2 class="subtitle">Our Puppies where playing with the cables again!</h2>
-	<iframe src="../footer/index.html" title="Submit Issues Here!" style="height:10vh;width:400px;"></iframe>
+	</span>
+	<iframe src="../footer/index.html" title="Submit Issues Here!" style="height:20vh;width:50vh;"></iframe>
 		<footer class="btn-holder">
 		<a href="../index.html">
-			<button> Home </button>
+			<button> Untangle the puppies </button>
 		</a>
 	</footer>
 	</body>

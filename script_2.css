@@ -1,13 +1,11 @@
-body.home {
+#home_body {
   background-color: purple;
   background-image: url("Galaxy-Upsplash.jpg");
   background-size: cover;
   padding: 25px;
   background-position: center;
 }
-.error {
-  color: darkblue;
-}
+
 .subtitle {
   text-align: center;
   color: yellow;
@@ -56,8 +54,4 @@ button {
 
 a:hover {
   color: grey !important;
-}
-
-.error_title {
-  color: orangered;
 }
