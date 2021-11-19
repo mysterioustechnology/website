@@ -6,14 +6,12 @@ body.home {
   background-position: center;
 }
 .error {
-  color: "purple";
+  color: darkblue;
 }
 .subtitle {
   text-align: center;
   color: yellow;
   font-weight: bolder;
-}
-p {
 }
 h1 {
   color: white;
@@ -21,7 +19,7 @@ h1 {
 }
 #work_form {
   color: limegreen !important;
-  font-weight: bold !imprortant;
+  font-weight: bold !important;
   font-family: Inter, sans-serif !important;
 }
 
@@ -58,4 +56,8 @@ button {
 
 a:hover {
   color: grey !important;
+}
+
+.error_title {
+  color: orangered;
 }
