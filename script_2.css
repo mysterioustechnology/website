@@ -1,60 +1,61 @@
-body.home{
-	background-color: purple;
-	background-image: url("Galaxy-Upsplash.jpg");
-	background-size: cover;
-	padding:25px;
-	background-position: center;
+body.home {
+  background-color: purple;
+  background-image: url("Galaxy-Upsplash.jpg");
+  background-size: cover;
+  padding: 25px;
+  background-position: center;
 }
-body.404{
-	color:"purple";
+.error {
+  color: "purple";
 }
-.subtitle{
-	text-align:center;
-	color:yellow;
-	font-weight: bolder;
+.subtitle {
+  text-align: center;
+  color: yellow;
+  font-weight: bolder;
 }
-p{
+p {
+}
+h1 {
+  color: white;
+  font-family: "Brush Script MT", cursive;
+}
+#work_form {
+  color: limegreen !important;
+  font-weight: bold !imprortant;
+  font-family: Inter, sans-serif !important;
+}
 
-}
-h1{
-	color:white;
-	font-family: 'Brush Script MT', cursive;
-}
-#work_form{
-	color:limegreen !important;
-	font-weight: bold; !imprortant;
-	font-family:  Inter, sans-serif !important;
-}
-	
- .btn-holder {
+.btn-holder {
   justify-content: right;
   display: flex;
 }
-button{
-	background-color: #04081300;
-	color:#44ff006b;
-	padding: 6px 25px;
-	font-family: cursive;
-	border:none;
+button {
+  background-color: #04081300;
+  color: #44ff006b;
+  padding: 6px 25px;
+  font-family: cursive;
+  border: none;
 }
-.container a{
-	justify-content:left;
-	flex-direction: column;
-	color: orange;
-	font-size: 30px;
+.container a {
+  justify-content: left;
+  flex-direction: column;
+  color: orange;
+  font-size: 30px;
 }
-.container{
-		width:20vw;
+.container {
+  width: 20vw;
 }
-.center{
-	color: white !important;
-	font-size:130%;
+.center {
+  color: white !important;
+  font-size: 130%;
+  display: grid;
+  justify-content: center;
 }
-.ico{
-	background-color: white;
-	width: 200px;
+.ico {
+  background-color: white;
+  width: 200px;
 }
 
-a:hover{
-    color:grey !important;
+a:hover {
+  color: grey !important;
 }
