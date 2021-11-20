@@ -2,6 +2,12 @@
 program for issues form
 */
 
+//updates issue box with issue
+function onLoad(issue){
+    document.getElementById('issue_title').innerHTML = issue;
+    console.log(issue)
+}
+
 
 //checks if user has github
 const selectElement = document.querySelector('#has_github');

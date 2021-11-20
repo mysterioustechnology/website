@@ -14,10 +14,10 @@
 	<body>
 		<style>
 			div.btn-holder{
-				justify-items:center;
-				height:2000px;
+				justify-content:center;
+				height:50vh;
 				aspect-ratio:1;
-				background-image: url("../dog.jpg");
+				background-image: url("dog.jpg");
 				background-position: center;
 				background-size: 100%;
 			}
@@ -35,12 +35,19 @@
 			.btn-holder{
 				display: flex;
 			}
+			button:hover{
+				color:white;
+				background-color: rgba(0, 0, 0, 0.575);
+			}
 			button{
-				background-color: #ff000000;
+				margin: 20vh;
+				border:none;
+				background-color: #fffefeaa;
 				border-radius: 30%;
 				height: 100px;
 				aspect-ratio: 1;
 				align-self: center;
+				cursor: pointer;
 			}
 			form{
 			     size:200px;
@@ -50,12 +57,14 @@
 	<h1 id="center">Oh No!</h1>
 	<h2 class="subtitle">Our Puppies where playing in the cables again!</h2>
 	</span>
-	<div class="btn-holder">
-		<a href="../index.html">
-			<button> Go back home </button>
-		</a>
+	<div id="center">
+		<div class="btn-holder">
+			<a href="../index.html">
+				<button> Go back home </button>
+			</a>
+		</div>
 	</div>
-	<form action="issues.js">
+	<form action="issues/issues.html">
 	      <label for="issue">How did you get here?</label>
 	      <input id"issue" name="issue" type="text">
 		</form>

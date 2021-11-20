@@ -6,10 +6,11 @@
                 display: flex;
                 justify-content: center;
             }
+
         </style>
         <script src="issues.js"></script>
     </head>
-    <body>
+    <body onload="onLoad(issue)">
 
         <h1 id="center">
             Welcome to the issues page!
@@ -19,8 +20,8 @@
             <input type="checkbox" name="has_github" id="has_github">
         </form>
         <form action="" id="issues_form">
-            <label for="issue_title">What issue ore you having?</label>
-            <textarea name="issue title" id="issue_title" cols="10" rows="1"> </textarea>
+            <label for="issue_title">What issue are you having?</label>
+            <textarea name="issue title" id="issue_title" cols="50" rows="1"> </textarea>
         </form>
     </body>
 </html>
