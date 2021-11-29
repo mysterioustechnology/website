@@ -2,7 +2,8 @@
 passthroue from 404 page
 */
 function passOver(){
-    var issue =
+    var issue = 'aaa'
+}
 
 
 /*
