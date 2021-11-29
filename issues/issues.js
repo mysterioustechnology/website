@@ -2,15 +2,16 @@
 passthroue from 404 page
 */
 function passOver(){
-    var issue = 'aaa'
+    var pass = 'aaa'
 }
 
 
 /*
 program for issues form
 */
-function onLoad(){
+function onLoad(issue){
    var x = document.getElementById('issues_form').style;
+   document.getElementById('issue_title').innerHTML = issue;
 }
 
 //checks if user has github
