@@ -4,12 +4,12 @@ program for issues form
 
 
 //checks if user has github
-var x = document.getElementById('issues_form');
+var x = document.getElementById('issues_form').style;
 function check(){
-    if(x.style.display === 'none'){
-        x.style.display = 'block';
+    if(x.display === 'none'){
+        x.display = 'block';
     }
     else{
-        x.style.display = 'none';
+        x.display = 'none';
     }
 }
