@@ -1,37 +1,26 @@
-var hide = document.getElementById("hide")
-var show = document.getElementById("show")
+var show = false;
+var y = document.getElementById('hide');
+var x = document.getElementById('show')
 
-window.addEventListener('resize', function(event) {
-    if (window.matchMedia("(max-width: 850px)").matches) {
-        //hide span with id hide
-        hide.style.visibility = "hidden";
-        //show button with id "show"
-        show.style.visibility = "visible";
-    } else {
-        //dont hide span with id hide
-        hide.style.visibility = "visible";
-        //hide button with id "show"
-        show.style.visibility = "hidden";
+
+function show(){
+    x.style = 'display:block';
+    y.style = 'display:none';
+}
+function hide(){
+    x.style = 'display:none';
+    y.style = 'display:block';
+}
+
+function detect(){
+    if(show = false){
+        show = true;
+        show()
     }
-});
-function onLoad(){
-    if (window.matchMedia("(max-width: 850px)").matches) {
-        //hide span with id hide
-        hide.style.visibility = "hidden";
-        //show button with id "show"
-        show.style.visibility = "visible";
-    } else {
-        //dont hide span with id hide
-        hide.style.visibility = "visible";
-        //hide button with id "show"
-        show.style.visibility = "hidden";
+    else{
+        show = false;
+        hide();
     }
 }
-function openMenu() {
-    var x = document.getElementById("menu");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
+
+window.onresize = detect;

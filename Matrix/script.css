@@ -4,7 +4,7 @@ p {
   text-align: justify;
 }
 body {
-  bgcolor: black;
+  background-color: black;
 }
 span{
 	display:grid;

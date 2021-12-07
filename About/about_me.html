@@ -17,10 +17,7 @@
   	  <script src="java.js"></script>
     <h1 id="center"> Welcome! </h1>
 	<h2 id="center"> My name is Johnathon Gillespie and its nice to meet you!</h2>
-	  <button id="show" style="visibility: hidden;position:absolute !important;aspect-ratio:1; width:10vw; border-radius: 25%;" onclick="openMenu()">
-		Menu!
-	  </button>
-	  <div id="menu" class="links" style="display:none;">
+	  <div id="show" class="links" style="display:none;">
 		<img src="../Icons/phone.png">
 		 304-488-9444
 		<img src="../Icons/Email.PNG">
@@ -35,7 +32,8 @@
 		<img src="../Icons/youtube.png">Mysterious Wolf
 		</a>
 	  </div>
-	  <span class="links" id="hide" style="visibility: visible;">
+	  <details class="links" id="hide" style="visibility: visible;">
+		<summary>Social Links!</summary>
                <img src="../Icons/phone.png">
 		  304-488-9444
 		  <img src="../Icons/Email.PNG">
@@ -63,7 +61,7 @@
 	  </div>
 	<iframe src="../footer/index.html" title="Submit Issues Here!" style="height:10vh;width:55vw;"></iframe>
 	  <footer class="btn-holder">
-		<a href="https://mysterious-b-wolf.github.io/website/">
+		<a href="../index.html">
 			<button> Home </button>
 		</a>
 	</footer>
