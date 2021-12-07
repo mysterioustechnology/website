@@ -1,15 +1,22 @@
-p{
-	color:green;
-	font-weight: bolder;
-	text-align: justify;
+p {
+  color: green;
+  font-weight: bolder;
+  text-align: justify;
 }
-body{
-	bgcolor:black;
+body {
+  bgcolor: black;
 }
-h1{
-	color:white;
+span{
+	display:grid;
 }
-.ico{
-	background-color: white;
-	width: 20vw;
+h1 {
+  width:100vw;
+  padding-left:30vw;
+  color: white;
+  position: fixed;
+  background-color:#2f004e83;
+}
+.ico {
+  background-color: white;
+  width: 20vw;
 }
