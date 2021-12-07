@@ -2,6 +2,15 @@ var show = false;
 var y = document.getElementById('hide');
 var x = document.getElementById('show')
 
+function onLoad(){
+    if(window.innerWidth <= 500){
+        show()
+    }
+    else{
+    hide();
+    }
+}
+
 
 function show(){
     x.style = 'display:block';
@@ -23,4 +32,4 @@ function detect(){
     }
 }
 
-window.onresize = detect;
+window.onresize = detect();
