@@ -1,4 +1,4 @@
-var show = false;
+var show = true;
 var y = document.getElementById('hide');
 var x = document.getElementById('show')
 
@@ -22,8 +22,8 @@ function hide(){
 }
 
 function detect(){
-    if(show = false){
-        show = true;
+    if(show){
+        show = false;
         show()
     }
     else{
@@ -32,4 +32,3 @@ function detect(){
     }
 }
 
-window.onresize = detect();
