@@ -1,8 +1,9 @@
 /*
 passthroue from 404 page
 */
+var pass = ''
 function passOver(){
-    var pass = ''
+    document.getElementById()
 }
 
 
