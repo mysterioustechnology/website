@@ -16,6 +16,14 @@ h1 {
   position: fixed;
   background-color:#2f004e83;
 }
+span button{
+  width:100vw;
+  padding-left:30vw + 100px;
+  color: white;
+  background-color:green;
+  position: fixed;	
+}
+	
 .ico {
   background-color: white;
   width: 20vw;
